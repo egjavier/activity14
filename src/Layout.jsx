@@ -10,7 +10,7 @@ function Layout() {
       data-bs-theme="dark"
       >
       <div className="container-fluid">
-        <Link className="navbar-brand fw-bold" to="home">
+        <Link className="navbar-brand fw-bold" to="/">
           <img 
             src={logo} 
             alt="Logo" 
