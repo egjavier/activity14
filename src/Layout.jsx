@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom"
+import { Outlet, Link, NavLink } from "react-router-dom"
 import logo from './assets/favicon.png'
 import Aos from "aos"
 
@@ -25,10 +25,10 @@ function Layout() {
         </button>
         <div className="collapse navbar-collapse justify-content-end nav-underline" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <Link className="nav-link" aria-current="page" to="/">Home</Link>
-            <Link className="nav-link" to="about">About</Link>
-            <Link className="nav-link" to="services">Services</Link>
-            <Link className="nav-link" to="contact">Contact</Link>
+            <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
+            <NavLink className="nav-link" to="about">About</NavLink>
+            <NavLink className="nav-link" to="services">Services</NavLink>
+            <NavLink className="nav-link" to="contact">Contact</NavLink>
           </div>
         </div>
       </div>
